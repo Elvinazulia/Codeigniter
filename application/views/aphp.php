@@ -16,16 +16,19 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <style><?php 
-  require_once("assets/css/style.css");
-  require_once("assets/vendor/animate.css/animate.min.css");
-  require_once("assets/vendor/bootstrap/css/bootstrap.min.css");
-  require_once("assets/vendor/bootstrap-icons/bootstrap-icons.css");
-  require_once("assets/vendor/boxicons/css/boxicons.min.css");
-  require_once("assets/vendor/glightbox/css/glightbox.min.css");
-  require_once("assets/vendor/swiper/swiper-bundle.min.css");
-  ?></style>
+  <style>
+    <?php
+    require_once("assets/css/style.css");
+    require_once("assets/vendor/animate.css/animate.min.css");
+    require_once("assets/vendor/bootstrap/css/bootstrap.min.css");
+    require_once("assets/vendor/bootstrap-icons/bootstrap-icons.css");
+    require_once("assets/vendor/boxicons/css/boxicons.min.css");
+    require_once("assets/vendor/glightbox/css/glightbox.min.css");
+    require_once("assets/vendor/swiper/swiper-bundle.min.css");
+    ?>
+  </style>
   <!-- Template Main CSS File -->
+  <link rel="stylesheet" href="<?= base_url('/application/views/assets/css/main.css') ?>" />
 </head>
 
 <body>
@@ -61,7 +64,7 @@
   <!-- End Header -->
 
   <section>
-      </div >
+    </div>
   </section>
 
   <main id="main">
@@ -70,56 +73,56 @@
       <div class="container">
 
         <div class="row no-gutters">
-            <div class="justify-content-center">
-              <h3>Agribisnis Pengolahan Hasil Pertanian</h3>
-              <p>Agribisnis Pengolahan Hasil Pertanian (APHP) kompetensi keahlian yang mempelajari bagaimana pengolahan hasil tani hingga menjadi suatu produk yang memiliki nilai jual tinggi, termasuk bagaimana penjualan produk tersebut.<br/>
-Kompetensi keahlian yang diajarkan :
-              <ol>
-                <li>Proses pengolahan hasil pertanian</li>
-                <li>Pengendalian mutu bahan hasil pertanian</li>
-                <li>Penanganan bahan hasil pertanian</li>
-                <li>Produksi pengolahan hewani</li>
-                <li>Produksi pengolahan nabati</li>
-                <li>Keamanan pangan</li>
-                <li>Produk kreatif dan kewirausahaan</li>
-              </ol>
-              <p>Prospek Pekerjaan :
-                <li>Bidang quality control</li>
-                <li>Konsultan Pangan dan Gizi</li>
-                <li>Wirausaha bidang pangan</li>
-              </p>
-              </p>
-                </div>
-              </div>
-            </div><!-- End .content-->
+          <div class="justify-content-center">
+            <h3>Agribisnis Pengolahan Hasil Pertanian</h3>
+            <p>Agribisnis Pengolahan Hasil Pertanian (APHP) kompetensi keahlian yang mempelajari bagaimana pengolahan hasil tani hingga menjadi suatu produk yang memiliki nilai jual tinggi, termasuk bagaimana penjualan produk tersebut.<br />
+              Kompetensi keahlian yang diajarkan :
+            <ol>
+              <li>Proses pengolahan hasil pertanian</li>
+              <li>Pengendalian mutu bahan hasil pertanian</li>
+              <li>Penanganan bahan hasil pertanian</li>
+              <li>Produksi pengolahan hewani</li>
+              <li>Produksi pengolahan nabati</li>
+              <li>Keamanan pangan</li>
+              <li>Produk kreatif dan kewirausahaan</li>
+            </ol>
+            <p>Prospek Pekerjaan :
+              <li>Bidang quality control</li>
+              <li>Konsultan Pangan dan Gizi</li>
+              <li>Wirausaha bidang pangan</li>
+            </p>
+            </p>
           </div>
         </div>
+      </div><!-- End .content-->
+      </div>
+      </div>
 
       </div>
     </section><!-- End About Section -->
 
-  <!-- ======= Footer ======= -->
-  <footer id="footer" style="
+    <!-- ======= Footer ======= -->
+    <footer id="footer" style="
   bottom:0;
   width:100%;
   height:100px;">
       <div class="container">
         <div class="row">
 
-          </div>
+        </div>
 
+      </div>
+      </div>
+      </div>
+
+      <div class="container">
+        <div class="copyright">
+          &copy; Copyright <strong><span>Kelompok 2</span></strong>. All Rights Reserved
         </div>
       </div>
-    </div>
+    </footer><!-- End Footer -->
 
-    <div class="container">
-      <div class="copyright">
-        &copy; Copyright <strong><span>Kelompok 2</span></strong>. All Rights Reserved
-      </div>
-    </div>
-  </footer><!-- End Footer -->
-
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
 </body>
 

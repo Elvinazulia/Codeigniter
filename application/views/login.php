@@ -16,16 +16,19 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <style><?php 
-  require_once("assets/css/style.css");
-  require_once("assets/vendor/animate.css/animate.min.css");
-  require_once("assets/vendor/bootstrap/css/bootstrap.min.css");
-  require_once("assets/vendor/bootstrap-icons/bootstrap-icons.css");
-  require_once("assets/vendor/boxicons/css/boxicons.min.css");
-  require_once("assets/vendor/glightbox/css/glightbox.min.css");
-  require_once("assets/vendor/swiper/swiper-bundle.min.css");
-  ?></style>
+  <style>
+    <?php
+    require_once("assets/css/style.css");
+    require_once("assets/vendor/animate.css/animate.min.css");
+    require_once("assets/vendor/bootstrap/css/bootstrap.min.css");
+    require_once("assets/vendor/bootstrap-icons/bootstrap-icons.css");
+    require_once("assets/vendor/boxicons/css/boxicons.min.css");
+    require_once("assets/vendor/glightbox/css/glightbox.min.css");
+    require_once("assets/vendor/swiper/swiper-bundle.min.css");
+    ?>
+  </style>
   <!-- Template Main CSS File -->
+  <link rel="stylesheet" href="<?= base_url('/application/views/assets/css/login.css') ?>" />
 </head>
 
 <body>
@@ -61,72 +64,75 @@
   <!-- End Header -->
 
   <section>
-      </div >
+    </div>
   </section>
 
   <main id="main">
     <!-- ======= Section ======= -->
     <section id="about" class="about">
-    <div class="container">
+      <div class="container">
+        <div align="center">
+          <img class="logo" src=" application\views\assets\image\logo.jpg" alt="">
+        </div>
+
         <br />
-        <h1 align="center">Login</h1>
+        <h1 class="text-login" align="center">Login</h1>
         <br />
         <div class="panel panel-default">
-            <div class="panel-body">
-                <?php
-                if($this->session->flashdata('message'))
-                {
-                    echo '
+          <div class="panel-body">
+            <?php
+            if ($this->session->flashdata('message')) {
+              echo '
                     <div class="alert alert-success">
-                        '.$this->session->flashdata("message").'
+                        ' . $this->session->flashdata("message") . '
                     </div>
                     ';
-                }
-                ?>
-                <form method="post" action="<?php echo base_url(); ?>login/validation">
-                    <div class="form-group">
-                        <label>Enter Email Address</label>
-                        <input type="text" name="user_email" class="form-control" value="<?php echo set_value('user_email'); ?>" />
-                        <span class="text-danger"><?php echo form_error('user_email'); ?></span>
-                    </div>
-                    <div class="form-group">
-                        <label>Enter Password</label>
-                        <input type="password" name="user_password" class="form-control" value="<?php echo set_value('user_password'); ?>" />
-                        <span class="text-danger"><?php echo form_error('user_password'); ?></span>
-                    </div>
-                    <div class="form-group">
-                        <input type="submit" name="login" value="Login" class="btn btn-info" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="<?php echo base_url(); ?>register">Register</a>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div><!-- End .content-->
+            }
+            ?>
+            <form method="post" action="<?php echo base_url(); ?>login/validation">
+              <div class="form-group">
+                <label>Enter Email Address</label>
+                <input type="text" name="user_email" class="form-control" value="<?php echo set_value('user_email'); ?>" />
+                <span class="text-danger"><?php echo form_error('user_email'); ?></span>
+              </div>
+              <div class="form-group">
+                <label>Enter Password</label>
+                <input type="password" name="user_password" class="form-control" value="<?php echo set_value('user_password'); ?>" />
+                <span class="text-danger"><?php echo form_error('user_password'); ?></span>
+              </div>
+              <div class="form-group">
+                <input type="submit" name="login" value="Login" class="btn btn-info" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="<?php echo base_url(); ?>register">Register</a>
+              </div>
+            </form>
           </div>
         </div>
+      </div><!-- End .content-->
+      </div>
+      </div>
 
       </div>
     </section><!-- End About Section -->
 
-  <!-- ======= Footer ======= -->
-  <footer id="footer" style="
+    <!-- ======= Footer ======= -->
+    <footer id="footer" style="
   bottom:0;
   width:100%;
   height:100px;">
       <div class="container">
         <div class="row">
 
-          </div>
+        </div>
 
+      </div>
+      </div>
+      </div>
+
+      <div class="container">
+        <div class="copyright">
+          &copy; Copyright <strong><span>Kelompok 2</span></strong>. All Rights Reserved
         </div>
       </div>
-    </div>
-
-    <div class="container">
-      <div class="copyright">
-        &copy; Copyright <strong><span>Kelompok 2</span></strong>. All Rights Reserved
-      </div>
-    </div>
-  </footer><!-- End Footer -->
+    </footer><!-- End Footer -->
 
 </body>
 

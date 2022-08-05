@@ -16,16 +16,19 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <style><?php 
-  require_once("assets/css/style.css");
-  require_once("assets/vendor/animate.css/animate.min.css");
-  require_once("assets/vendor/bootstrap/css/bootstrap.min.css");
-  require_once("assets/vendor/bootstrap-icons/bootstrap-icons.css");
-  require_once("assets/vendor/boxicons/css/boxicons.min.css");
-  require_once("assets/vendor/glightbox/css/glightbox.min.css");
-  require_once("assets/vendor/swiper/swiper-bundle.min.css");
-  ?></style>
+  <style>
+    <?php
+    require_once("assets/css/style.css");
+    require_once("assets/vendor/animate.css/animate.min.css");
+    require_once("assets/vendor/bootstrap/css/bootstrap.min.css");
+    require_once("assets/vendor/bootstrap-icons/bootstrap-icons.css");
+    require_once("assets/vendor/boxicons/css/boxicons.min.css");
+    require_once("assets/vendor/glightbox/css/glightbox.min.css");
+    require_once("assets/vendor/swiper/swiper-bundle.min.css");
+    ?>
+  </style>
   <!-- Template Main CSS File -->
+  <link rel="stylesheet" href="<?= base_url('/application/views/assets/css/main.css') ?>" />
 </head>
 
 <body>
@@ -35,7 +38,7 @@
 
       <h1 class="logo"><a href="<?php echo base_url(); ?>beranda">SMK IBRAHIMY 2 SUKOREJO</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
 
       <nav id="navbar" class="navbar">
         <ul>
@@ -59,50 +62,61 @@
     </div>
   </header>
   <!-- End Header -->
-  
+
   <section>
-      </div >
+    </div>
   </section>
 
   <main id="main">
     <!-- ======= Section ======= -->
     <section id="about" class="about">
-      <div class="container">
-
-        <div class="row no-gutters">
-            <div class="justify-content-center">
-              <h3>SMK IBRAHIMY 2 SUKOREJO</h3>
-              <p>SMK IBRAHIMY 2 SUKOREJO beralamat di JL. KHR. SYAMSUL ARIFIN SUKOREJO, Sumberejo, Kec. Banyuputih, Kab. Situbondo, Jawa Timur, dengan kode pos 68374.</p>
-                </div>
-              </div>
-            </div><!-- End .content-->
+      <div class="bodyimg">
+        <div class="containerimg">
+          <div class="wrapperimg">
+            <img src="application\views\assets\image\sekolah-830x500.jpg">
+            <img src="application\views\assets\image\sekolah1-830x500.jpg">
+            <img src="application\views\assets\image\sekolah2-830x500.jpg">
+            <img src="application\views\assets\image\sekolah3-830x500.jpg">
           </div>
         </div>
+      </div>
+
+      <div class="container">
+        <div class="row no-gutters">
+
+          <div class="justify-content-center">
+            <h3>SMK IBRAHIMY 2 SUKOREJO</h3>
+            <p class="p-akhir">SMK IBRAHIMY 2 SUKOREJO beralamat di JL. KHR. SYAMSUL ARIFIN SUKOREJO, Sumberejo, Kec. Banyuputih, Kab. Situbondo, Jawa Timur, dengan kode pos 68374.</p>
+          </div>
+        </div>
+      </div><!-- End .content-->
+      </div>
+      </div>
 
       </div>
     </section><!-- End About Section -->
 
-  <!-- ======= Footer ======= -->
-  <footer id="footer" style="
+    <!-- ======= Footer ======= -->
+    <footer id="footer" style="
   position:fixed;
   bottom:0;
   width:100%;
-  height:100px;">
+  height:10%;">
       <div class="container">
         <div class="row">
 
-          </div>
+        </div>
 
+      </div>
+      </div>
+      </div>
+
+      <div class="container">
+        <div class="copyright">
+          &copy; Copyright <strong><span>Kelompok 2</span></strong>. All Rights Reserved
         </div>
       </div>
-    </div>
-
-    <div class="container">
-      <div class="copyright">
-        &copy; Copyright <strong><span>Kelompok 2</span></strong>. All Rights Reserved
-      </div>
-    </div>
-  </footer><!-- End Footer -->
+    </footer><!-- End Footer -->
 
 </body>
 

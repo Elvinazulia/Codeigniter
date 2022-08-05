@@ -16,16 +16,19 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <style><?php 
-  require_once("assets/css/style.css");
-  require_once("assets/vendor/animate.css/animate.min.css");
-  require_once("assets/vendor/bootstrap/css/bootstrap.min.css");
-  require_once("assets/vendor/bootstrap-icons/bootstrap-icons.css");
-  require_once("assets/vendor/boxicons/css/boxicons.min.css");
-  require_once("assets/vendor/glightbox/css/glightbox.min.css");
-  require_once("assets/vendor/swiper/swiper-bundle.min.css");
-  ?></style>
+  <style>
+    <?php
+    require_once("assets/css/style.css");
+    require_once("assets/vendor/animate.css/animate.min.css");
+    require_once("assets/vendor/bootstrap/css/bootstrap.min.css");
+    require_once("assets/vendor/bootstrap-icons/bootstrap-icons.css");
+    require_once("assets/vendor/boxicons/css/boxicons.min.css");
+    require_once("assets/vendor/glightbox/css/glightbox.min.css");
+    require_once("assets/vendor/swiper/swiper-bundle.min.css");
+    ?>
+  </style>
   <!-- Template Main CSS File -->
+  <link rel="stylesheet" href="<?= base_url('/application/views/assets/css/main.css') ?>" />
 </head>
 
 <body>
@@ -62,7 +65,7 @@
 
   <!-- ======= Hero Section ======= -->
   <section>
-      </div >
+    </div>
   </section><!-- End Hero -->
 
   <main id="main">
@@ -71,70 +74,70 @@
       <div class="container">
 
         <div class="row no-gutters">
-            <div class="justify-content-center">
-              <h3>Teknik Komputer dan Jaringan</h3>
-              <p>Teknik Komputer dan Jaringan (TKJ) adalah sebuah kejuruan yang mempelajari tentang cara merakit komputer, mengenal dan mempelajari komponen hardware apa saja yang ada di dalam komputer, merakit komputer serta fokus mempelajari jaringan dasar. Tidak hanya itu selama tiga tahun belajar di TKJ akan mempelajari sistem kerja jaringan dan pemograman web serta meng-administrasi komputer jaringan.<br/>
-Kompetensi keahlian yang diajarkan :</p>
-              <p>Kelas X:
-              <ol>
-                <li>Komputer dan Jaringan Dasar</li>
-                <li>Sistem Komputer</li>
-                <li>Pemograman Dasar</li>
-                <li>Desain Grafis</li>
-              </ol>  
-              <p>Kelas XI:
-              <ol>
-                <li>Teknologi WAN</li>
-                <li>Teknologi Layanan Jaringan</li>
-                <li>Administrasi Infrastruktur Jaringan</li>
-                <li>Administrasi Sistem Jaringan</li>
-                <li>Produk Kreatif dan Kewirausahaan</li>
-              </ol>  
-              <p>Kelas XII:
-              <ol>
-                <li>Teknologi Layanan Jaringan</li>
-                <li>Administrasi Infrastruktur Jaringan</li>
-                <li>Administrasi Sistem Jaringan</li>
-                <li>Produk Kreatif dan Kewirausahaan</li>
-              </ol> 
-              <p>Prospek Pekerjaan :
-                <li>Teknisi Komputer/Laptop</li>
-                <li>Teknisi/operator Jaringan</li>
-                <li>Administator jaringan</li>
-                <li>Pegawai Kantoran</li>
-                <li>Desainer</li>
-                <li>System Analyst</li>
-                <li>Konsultan ERP (Enterprise Resource Planning)</li>
-              </p>
-                </div>
-              </div>
-            </div><!-- End .content-->
+          <div class="justify-content-center">
+            <h3>Teknik Komputer dan Jaringan</h3>
+            <p>Teknik Komputer dan Jaringan (TKJ) adalah sebuah kejuruan yang mempelajari tentang cara merakit komputer, mengenal dan mempelajari komponen hardware apa saja yang ada di dalam komputer, merakit komputer serta fokus mempelajari jaringan dasar. Tidak hanya itu selama tiga tahun belajar di TKJ akan mempelajari sistem kerja jaringan dan pemograman web serta meng-administrasi komputer jaringan.<br />
+              Kompetensi keahlian yang diajarkan :</p>
+            <p>Kelas X:
+            <ol>
+              <li>Komputer dan Jaringan Dasar</li>
+              <li>Sistem Komputer</li>
+              <li>Pemograman Dasar</li>
+              <li>Desain Grafis</li>
+            </ol>
+            <p>Kelas XI:
+            <ol>
+              <li>Teknologi WAN</li>
+              <li>Teknologi Layanan Jaringan</li>
+              <li>Administrasi Infrastruktur Jaringan</li>
+              <li>Administrasi Sistem Jaringan</li>
+              <li>Produk Kreatif dan Kewirausahaan</li>
+            </ol>
+            <p>Kelas XII:
+            <ol>
+              <li>Teknologi Layanan Jaringan</li>
+              <li>Administrasi Infrastruktur Jaringan</li>
+              <li>Administrasi Sistem Jaringan</li>
+              <li>Produk Kreatif dan Kewirausahaan</li>
+            </ol>
+            <p>Prospek Pekerjaan :
+              <li>Teknisi Komputer/Laptop</li>
+              <li>Teknisi/operator Jaringan</li>
+              <li>Administator jaringan</li>
+              <li>Pegawai Kantoran</li>
+              <li>Desainer</li>
+              <li>System Analyst</li>
+              <li>Konsultan ERP (Enterprise Resource Planning)</li>
+            </p>
           </div>
         </div>
+      </div><!-- End .content-->
+      </div>
+      </div>
 
       </div>
     </section><!-- End About Section -->
 
-  <!-- ======= Footer ======= -->
-  <footer id="footer" style="
+    <!-- ======= Footer ======= -->
+    <footer id="footer" style="
   bottom:0;
   width:100%;
   height:100px;">
       <div class="container">
         <div class="row">
 
-          </div>
+        </div>
 
+      </div>
+      </div>
+      </div>
+
+      <div class="container">
+        <div class="copyright">
+          &copy; Copyright <strong><span>Kelompok 2</span></strong>. All Rights Reserved
         </div>
       </div>
-    </div>
-
-    <div class="container">
-      <div class="copyright">
-        &copy; Copyright <strong><span>Kelompok 2</span></strong>. All Rights Reserved
-      </div>
-    </div>
-  </footer><!-- End Footer -->
+    </footer><!-- End Footer -->
 
 </body>
 

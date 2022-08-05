@@ -14,6 +14,7 @@ class Private_area extends CI_Controller {
  function index()
  {
   echo '<br /><br /><br /><h1 align="center">Welcome User</h1>';
+  echo '<br /><br /><br /><h3 align="center">Silahkan datang ke Sekretariat SMK IBRAHIMY 2 SUKOREJO untuk melakukan daftar ulang</h3>';
   echo '<p align="center"><a href="'.base_url().'private_area/logout">Logout</a></p>';
  }
 

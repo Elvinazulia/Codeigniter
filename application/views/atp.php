@@ -16,16 +16,19 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <style><?php 
-  require_once("assets/css/style.css");
-  require_once("assets/vendor/animate.css/animate.min.css");
-  require_once("assets/vendor/bootstrap/css/bootstrap.min.css");
-  require_once("assets/vendor/bootstrap-icons/bootstrap-icons.css");
-  require_once("assets/vendor/boxicons/css/boxicons.min.css");
-  require_once("assets/vendor/glightbox/css/glightbox.min.css");
-  require_once("assets/vendor/swiper/swiper-bundle.min.css");
-  ?></style>
+  <style>
+    <?php
+    require_once("assets/css/style.css");
+    require_once("assets/vendor/animate.css/animate.min.css");
+    require_once("assets/vendor/bootstrap/css/bootstrap.min.css");
+    require_once("assets/vendor/bootstrap-icons/bootstrap-icons.css");
+    require_once("assets/vendor/boxicons/css/boxicons.min.css");
+    require_once("assets/vendor/glightbox/css/glightbox.min.css");
+    require_once("assets/vendor/swiper/swiper-bundle.min.css");
+    ?>
+  </style>
   <!-- Template Main CSS File -->
+  <link rel="stylesheet" href="<?= base_url('/application/views/assets/css/main.css') ?>" />
 </head>
 
 <body>
@@ -61,7 +64,7 @@
   <!-- End Header -->
 
   <section>
-      </div >
+    </div>
   </section>
 
   <main id="main">
@@ -70,53 +73,53 @@
       <div class="container">
 
         <div class="row no-gutters">
-            <div class="justify-content-center">
-              <h3>Agribisnis tanaman perkebunan</h3>
-              <p>Agribisnis tanaman perkebunan (ATP) adalah jurusan yang membekali siswa untuk memiliki kemampuan dalam bidang pertanian, pembenihan, pembibitan, pembiakan tanaman, perlakukan khusus tanaman, pemupukan tanaman, pengendalian hama dan penyakit tanaman,pemasaran serta produk kreatif dan kewirausahaan.<br/>
-Kompetensi keahlian yang diajarkan :
-              <ol>
-                <li>Persiapan Lahan dan Penanaman Tanaman Perkebunan</li>
-                <li>Pembibitan dan Kultur Jaringan Tanaman Perkebunan</li>
-                <li>Pemeliharaan dan Pengelolaan Tanaman Perkebunan</li>
-                <li>Panen dan Pascapanen Tanaman Perkebunan</li>
-                <li>Pemetaan Lahan</li>
-                <li>Produk Kreatif dan Kewirausahaan</li>
-              </ol>
-              <p>Prospek Pekerjaan :
-                <li>Petugas Program Pertanian Daerah</li>
-                <li>Penyuluh Pertanian</li>
-                <li>Karyawan Perusahaan Pertanian Dan Perkebunan</li>
-              </p>
-              </p>
-                </div>
-              </div>
-            </div><!-- End .content-->
+          <div class="justify-content-center">
+            <h3>Agribisnis tanaman perkebunan</h3>
+            <p>Agribisnis tanaman perkebunan (ATP) adalah jurusan yang membekali siswa untuk memiliki kemampuan dalam bidang pertanian, pembenihan, pembibitan, pembiakan tanaman, perlakukan khusus tanaman, pemupukan tanaman, pengendalian hama dan penyakit tanaman,pemasaran serta produk kreatif dan kewirausahaan.<br />
+              Kompetensi keahlian yang diajarkan :
+            <ol>
+              <li>Persiapan Lahan dan Penanaman Tanaman Perkebunan</li>
+              <li>Pembibitan dan Kultur Jaringan Tanaman Perkebunan</li>
+              <li>Pemeliharaan dan Pengelolaan Tanaman Perkebunan</li>
+              <li>Panen dan Pascapanen Tanaman Perkebunan</li>
+              <li>Pemetaan Lahan</li>
+              <li>Produk Kreatif dan Kewirausahaan</li>
+            </ol>
+            <p>Prospek Pekerjaan :
+              <li>Petugas Program Pertanian Daerah</li>
+              <li>Penyuluh Pertanian</li>
+              <li>Karyawan Perusahaan Pertanian Dan Perkebunan</li>
+            </p>
+            </p>
           </div>
         </div>
+      </div><!-- End .content-->
+      </div>
+      </div>
 
       </div>
     </section><!-- End About Section -->
 
-  <!-- ======= Footer ======= -->
-  <footer id="footer" style="
+    <!-- ======= Footer ======= -->
+    <footer id="footer" style="
   bottom:0;
   width:100%;
   height:100px;">
       <div class="container">
         <div class="row">
 
-          </div>
+        </div>
 
+      </div>
+      </div>
+      </div>
+
+      <div class="container">
+        <div class="copyright">
+          &copy; Copyright <strong><span>Kelompok 2</span></strong>. All Rights Reserved
         </div>
       </div>
-    </div>
-
-    <div class="container">
-      <div class="copyright">
-        &copy; Copyright <strong><span>Kelompok 2</span></strong>. All Rights Reserved
-      </div>
-    </div>
-  </footer><!-- End Footer -->
+    </footer><!-- End Footer -->
 
 </body>
 

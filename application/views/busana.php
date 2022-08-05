@@ -16,16 +16,19 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <style><?php 
-  require_once("assets/css/style.css");
-  require_once("assets/vendor/animate.css/animate.min.css");
-  require_once("assets/vendor/bootstrap/css/bootstrap.min.css");
-  require_once("assets/vendor/bootstrap-icons/bootstrap-icons.css");
-  require_once("assets/vendor/boxicons/css/boxicons.min.css");
-  require_once("assets/vendor/glightbox/css/glightbox.min.css");
-  require_once("assets/vendor/swiper/swiper-bundle.min.css");
-  ?></style>
+  <style>
+    <?php
+    require_once("assets/css/style.css");
+    require_once("assets/vendor/animate.css/animate.min.css");
+    require_once("assets/vendor/bootstrap/css/bootstrap.min.css");
+    require_once("assets/vendor/bootstrap-icons/bootstrap-icons.css");
+    require_once("assets/vendor/boxicons/css/boxicons.min.css");
+    require_once("assets/vendor/glightbox/css/glightbox.min.css");
+    require_once("assets/vendor/swiper/swiper-bundle.min.css");
+    ?>
+  </style>
   <!-- Template Main CSS File -->
+  <link rel="stylesheet" href="<?= base_url('/application/views/assets/css/main.css') ?>" />
 </head>
 
 <body>
@@ -59,9 +62,9 @@
     </div>
   </header>
   <!-- End Header -->
-  
+
   <section>
-      </div >
+    </div>
   </section>
 
   <main id="main">
@@ -70,31 +73,33 @@
       <div class="container">
 
         <div class="row no-gutters">
-            <div class="justify-content-center">
-              <h3>Tata Busana</h3>
-              <p>Tata Busana adalah kompetensi keahlian program studi keahlian Tata Busana yang menekankan pada bidang pembuatan busana dalam pengelolaan dan penyelenggaraan usaha busana serta mampu berkompetisi dalam mengembangkan sikap profesional dalam bidang busana.<br/>
-Kompetensi keahlian yang diajarkan :
+          <div class="justify-content-center">
+            <h3>Tata Busana</h3>
+            <p>Tata Busana adalah kompetensi keahlian program studi keahlian Tata Busana yang menekankan pada bidang pembuatan busana dalam pengelolaan dan penyelenggaraan usaha busana serta mampu berkompetisi dalam mengembangkan sikap profesional dalam bidang busana.<br />
+              Kompetensi keahlian yang diajarkan :
+            <ol>
+              <li>Menggambar busana (Fashion drawing)</li>
+              <li>Membuat pola (Pattern Making)</li>
+              <li>Membuat busana wanita</li>
+              <li>Membuat busana pria</li>
+              <li>Membuat busana anak</li>
+              <li>Membuat busana bayi</li>
+              <li>Memilih bahan baku busana</li>
+              <li>Membuat Hiasan pada busana (Embroidery)</li>
+              <li>Mengawasi mutu busana</li>
+            </ol>
+            <p>Prospek Pekerjaan :
+              <li>Customer-Made (Modiste/attelier, butik, tailor-made,
+              <li>dress-making)</li>
+              <li>Penjahit</li>
+              <li>Tukang potong</li>
+              <li>Pembuat pola</li>
+              <li>Pekerja pada bagian finishing</li>
+              <li>Penghias busana</li>
+              <li>Pembuat pelengkap Busana</li>
+              <li>Garment/Konveksi Operator/Pembantu operator pada bagian :</li>
+            <ul>
               <ol>
-                <li>Menggambar busana (Fashion drawing)</li>
-                <li>Membuat pola (Pattern Making)</li>
-                <li>Membuat busana wanita</li>
-                <li>Membuat busana pria</li>
-                <li>Membuat busana anak</li>
-                <li>Membuat busana bayi</li>
-                <li>Memilih bahan baku busana</li>
-                <li>Membuat Hiasan pada busana (Embroidery)</li>
-                <li>Mengawasi mutu busana</li>
-              </ol>
-              <p>Prospek Pekerjaan :
-                <li>Customer-Made (Modiste/attelier, butik, tailor-made, <li>dress-making)</li>
-                <li>Penjahit</li>
-                <li>Tukang potong</li>
-                <li>Pembuat pola</li>
-                <li>Pekerja pada bagian finishing</li>
-                <li>Penghias busana</li>
-                <li>Pembuat pelengkap Busana</li>
-                <li>Garment/Konveksi Operator/Pembantu operator pada bagian :</li>
-                <ul><ol>
                 <li>Triming</li>
                 <li>Preparing</li>
                 <li>Ticketing & bundelling</li>
@@ -104,40 +109,41 @@ Kompetensi keahlian yang diajarkan :
                 <li>Packing & labelling</li>
                 <li>Pembuatan sampel Pressing.</li>
                 <li>Sebagai disainer, penjahit, pembuat pola, penghias busana pada Custom Mode</li>
-                <li>Sebagai operator/ asisten operator pada Garmen/ konveksi</li></ol>
-                </ul>
-                <li>Membuka usaha di bidang penjahitan dan konveksi</li>
-              </p>
-              </p>
-                </div>
-              </div>
-            </div><!-- End .content-->
+                <li>Sebagai operator/ asisten operator pada Garmen/ konveksi</li>
+              </ol>
+            </ul>
+            <li>Membuka usaha di bidang penjahitan dan konveksi</li>
+            </p>
+            </p>
           </div>
         </div>
+      </div><!-- End .content-->
+      </div>
+      </div>
 
       </div>
     </section><!-- End About Section -->
 
-  <!-- ======= Footer ======= -->
-  <footer id="footer" style="
+    <!-- ======= Footer ======= -->
+    <footer id="footer" style="
   bottom:0;
   width:100%;
   height:100px;">
       <div class="container">
         <div class="row">
 
-          </div>
+        </div>
 
+      </div>
+      </div>
+      </div>
+
+      <div class="container">
+        <div class="copyright">
+          &copy; Copyright <strong><span>Kelompok 2</span></strong>. All Rights Reserved
         </div>
       </div>
-    </div>
-
-    <div class="container">
-      <div class="copyright">
-        &copy; Copyright <strong><span>Kelompok 2</span></strong>. All Rights Reserved
-      </div>
-    </div>
-  </footer><!-- End Footer -->
+    </footer><!-- End Footer -->
 
 </body>
 

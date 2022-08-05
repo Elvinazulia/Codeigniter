@@ -16,16 +16,19 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <style><?php 
-  require_once("assets/css/style.css");
-  require_once("assets/vendor/animate.css/animate.min.css");
-  require_once("assets/vendor/bootstrap/css/bootstrap.min.css");
-  require_once("assets/vendor/bootstrap-icons/bootstrap-icons.css");
-  require_once("assets/vendor/boxicons/css/boxicons.min.css");
-  require_once("assets/vendor/glightbox/css/glightbox.min.css");
-  require_once("assets/vendor/swiper/swiper-bundle.min.css");
-  ?></style>
+  <style>
+    <?php
+    require_once("assets/css/style.css");
+    require_once("assets/vendor/animate.css/animate.min.css");
+    require_once("assets/vendor/bootstrap/css/bootstrap.min.css");
+    require_once("assets/vendor/bootstrap-icons/bootstrap-icons.css");
+    require_once("assets/vendor/boxicons/css/boxicons.min.css");
+    require_once("assets/vendor/glightbox/css/glightbox.min.css");
+    require_once("assets/vendor/swiper/swiper-bundle.min.css");
+    ?>
+  </style>
   <!-- Template Main CSS File -->
+  <link rel="stylesheet" href="<?= base_url('/application/views/assets/css/main.css') ?>" />
 </head>
 
 <body>
@@ -61,7 +64,7 @@
   <!-- End Header -->
 
   <section>
-      </div >
+    </div>
   </section>
 
   <main id="main">
@@ -70,28 +73,29 @@
       <div class="container">
 
         <div class="row no-gutters">
-            <div class="justify-content-center">
-              <h3>Syarat Pendaftaran :</h3>
-              <p><ol>
-<li>Silahkan login untuk mengisi form pendaftaran di web ppdb SMK Ibrahimy 2 Sukorejo</li>
-<li>Usia maksimal saat mendaftar 17 tahun</li>
-<li>Scan file Ijazah SMP/MTs terlegalisir 3 Lembar</li>
-<li>Scan file Surat Keterangan Catatan Kelakuan Baik dari Desa/ Kepolisian</li>
-<li>Scan file Surat Keterangan Kesehatan dan Bebas Narkoba</li>
-<li>Scan file Kartu Keluarga (KK)</li>
-</ol>
-              </p>
-                </div>
-              </div>
-            </div><!-- End .content-->
+          <div class="justify-content-center">
+            <h3>Syarat Pendaftaran :</h3>
+            <p>
+            <ol>
+              <li>Silahkan login untuk mengisi form pendaftaran di web ppdb SMK Ibrahimy 2 Sukorejo</li>
+              <li>Usia maksimal saat mendaftar 17 tahun</li>
+              <li>Scan file Ijazah SMP/MTs terlegalisir 3 Lembar</li>
+              <li>Scan file Surat Keterangan Catatan Kelakuan Baik dari Desa/ Kepolisian</li>
+              <li>Scan file Surat Keterangan Kesehatan dan Bebas Narkoba</li>
+              <li>Scan file Kartu Keluarga (KK)</li>
+            </ol>
+            </p>
           </div>
         </div>
+      </div><!-- End .content-->
+      </div>
+      </div>
 
       </div>
     </section><!-- End About Section -->
 
-  <!-- ======= Footer ======= -->
-  <footer id="footer" style="
+    <!-- ======= Footer ======= -->
+    <footer id="footer" style="
   position:fixed;
   bottom:0;
   width:100%;
@@ -99,18 +103,18 @@
       <div class="container">
         <div class="row">
 
-          </div>
+        </div>
 
+      </div>
+      </div>
+      </div>
+
+      <div class="container">
+        <div class="copyright">
+          &copy; Copyright <strong><span>Kelompok 2</span></strong>. All Rights Reserved
         </div>
       </div>
-    </div>
-
-    <div class="container">
-      <div class="copyright">
-        &copy; Copyright <strong><span>Kelompok 2</span></strong>. All Rights Reserved
-      </div>
-    </div>
-  </footer><!-- End Footer -->
+    </footer><!-- End Footer -->
 
 </body>
 
